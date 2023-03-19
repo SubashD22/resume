@@ -5,7 +5,7 @@ const Skills = ({ points }) => {
     return (
         <>
             {skillPoints.map((skill, i) => {
-                return skill <= points ? <div key={i} className="dots"><img src="/Black circle.png" alt="Black circle" className='icon' /></div> : <div key={i} className="dots"><img src="/Gray circle.png" alt="Black circle" className='icon' /></div>
+                return skill <= points ? <div key={i} className="dots"><img src="/Black circle.png" alt="Black circle" className='icon' /></div> : <div key={i} className="dots"><img src="/Gray Circle.png" alt=" gray circle" className='icon' /></div>
             })}
         </>
     )
