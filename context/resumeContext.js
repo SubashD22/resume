@@ -5,7 +5,7 @@ export const ResumeContext = ({children})=>{
     const profile = {
         name: "Devon Lane",
         role: "Graphic Designer",
-        summary: " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        summary: " Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commod consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
     }
     const education = [
         {
@@ -32,12 +32,6 @@ export const ResumeContext = ({children})=>{
          url:"www.example1.com",
          note:"Lorem mpsum dolor smt amet sed doadmpmscmng."
         },
-        {title:"Awards 2",
-         time:"Dec 2018",
-         company:"Company 2",
-         url:"www.example1.com",
-         note:"Lorem mpsum dolor smt amet sed doadmpmscmng."
-        }
     ]
     const certifications = [
         {title:"Azure Fundamentals",
@@ -57,17 +51,17 @@ export const ResumeContext = ({children})=>{
         {title:"Senior Graphic Designer",
          time:"Jan 2022 - Present",
          company:"Invision Company | City | Country",
-         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo venmam, qums nostrud exercmtatmon."
+         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. "
         },
         {title:"Junior Graphic Designer",
          time:"Jan 2020 - Jan 2021",
          company:"Invision Company | City | Country",
-         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo venmam, qums nostrud exercmtatmon."
+         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. "
         },
         {title:"Graphic Designer",
          time:"Jan 2018- Jan 2020",
          company:"Invision Company | City | Country",
-         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo venmam, qums nostrud exercmtatmon."
+         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. "
         }
     ]
     const internships = [
@@ -85,19 +79,19 @@ export const ResumeContext = ({children})=>{
         {title:"Project Title",
          time:"Jan 2022 - Present",
          company:"Client name",
-         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo venmam, qums nostrud exercmtatmon."
+         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua."
         },
         {title:"Project Title",
          time:"Jan 2020 - Jan 2021",
          company:"Client name",
-         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo venmam, qums nostrud exercmtatmon."
+         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua."
         }
     ]
     const training = [
         {title:"Traning Title",
          time:"Jan 2018 - Jun 2018",
          company:"Institution",
-         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo venmam, qums nostrud exercmtatmon."
+         note:"Lorem mpsum dolor smt amet, consectetur admpmscmng elmt, sed do emusmod tempor mncmdmdunt ut labore et dolore magna almqua. Ut enmm ad mmnmm venmam, qums nostrud exercmtatmon ullamco laborms nmsm ut almqump ex ea commodo.Lorem mpsudolor smt amet."
         }
     ]
     return(

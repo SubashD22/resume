@@ -1,130 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container{
   border:6px solid black;
-  width:1000px;
+  width: 6.22in;
+  height: 8.78in;
+  padding: 0;
   font-family: 'Montserrat', sans-serif;
   font-family: 'Nerko One', cursive;
   font-family: 'Ubuntu', sans-serif;
 }
-.pg2{
-  overflow-y: hidden;
-}
-p{
-  color: #515151;
+.grid{
+  
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
 
-img{
-  width:250px;
-  height:250px;
-  margin:-60px 0 0 65px;
+.right{
+
+  padding-right: 1.5rem;
+  margin-left: -4rem;
+}
+.pg2, .pg3{
+  overflow-y: hidden;
+}
+p, li{
+  color: #515151;
+  font-size: small;
+  margin-bottom: 8px;
+}
+
+.girl-image{
+  width:125px;
+  height:125px;
+  margin:-17.5px 0 0 47px;
   
 }
 .name{
-  margin:200px 0 0 0;
-  font-size: 28px;
+  margin:50px 0 0 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+.name h1{
+  margin-bottom: 4px;
+}
+.name h2{
+  color: #515151;
   font-weight: bold;
 }
 #name-devon{
-  font-size:70px;
+  font-size:35px;
+  width: 100px;
 }
 .contact-section,.skills-section{
-  margin:50px 0 0 80px;
+ margin-left: 1.5rem;
+ margin-top: 1.4rem;
+ font-size: small;
 }
 .marks-dots{
   display: flex;
-  justify-content: space-between;
-}
+  gap:0 2.5px}
 h2{
-  margin-bottom:20px;
+  margin-bottom:10px;
+  font-size: large;
 }
 h4{
-  margin-bottom:20px;
+  margin-bottom:5px;
+  font-size: 15px;
 }
 .dots{
-  margin-bottom:10px;
+  margin-bottom:5px;
 }
-.right-side{
-  margin:0px 80px;
+
+.personal-details{
+  margin-left:10px;
 }
 .this{
-  margin: 0 0 45px 0;
-}
-.personal-details{
-  margin-left:20px;
+  margin-bottom: 15px;
 }
 #bottom-image{
-  margin-top: -580px;
-  margin-left:917px;
-  height:600px;
-  width: 60px;
+  margin-top: -350px;
+  margin-left: 570px;
+  height:300px;
+  width: 30px;
   
 }
 #top-image{
-  width:500px;
-  margin-top: -100px;
-  margin-left:-48px;
+  width:250px;
+  margin-top: -25px;
+  margin-left:-12px;
 }
 #image-shap2{
-  margin-top: -290px;
-  margin-left: -5px;
-  height:400px;
-  width: 500px;
+  margin-top: -140.5px;
+  margin-left: -1.25px;
+  height:200px;
+  width: 250px;
   
 }
 .technical-skills-section{
-  margin:	120px 50px;
+  margin-top:1rem;
+  margin-left: 1.5rem;
+  font-size: small;
 }
-.tech{
-  font-size:18px;
-  font-weight: bold;
-}
-.techskils{
-  margin-bottom: 20px;
-  font-weight: bold;
+.left ul{
+  margin-left: -1rem;
+  width: 200px
 }
 #awards{
-  margin-top: 50px;
+  margin-top: 12.5px;
   font-weight: bold;
 }
-.awards{
-  margin-top: 20px;
-}
-.company{
-  margin-top: 10px;
-  font-weight: bold;
-}
-.udemy{
-  font-weight: bold;
-}
+
 .Work-experience{
-  margin:120px 50px;
+ margin-top: 2.5rem;
 }
 hr{
   border:2px solid blue;
-  height: 5px;
-  margin-top: 50px;
+  height: 2.5px;
+  margin-top: 12.5px;
   background-color: blue;
 }
-#junior, #graphic{
-  margin-top:40px;
-}
+
 #top-image2{
-  width:500px;
-  margin-top:-315px;
-  z-index: -1;
-  margin-left:-130px;
+  width:250px;
+  margin-top: -75px;
+  margin-left:-12px;
 }
 #bottom-image2{
-  margin-top: -800px;
-  margin-left:917px;
-  height:800px;
-  width: 60px;
-  position: absolute;
-  z-index: 0;
+  margin-top: -350px;
+  margin-left: 570px;
+  height:300px;
+  width: 30px;
+  
 }
 #image-shap22{
-  margin-top: -320px;
-  margin-left: -50px;
-  height:400px;
-  width: 500px;
+  margin-top: -150.5px;
+  margin-left: -1.5rem;
+  height:200px;
+  width: 250px;
   
+}
+.icon{
+  width: 10px;
+}
+main {
+  position: relative;
+}
+button{
+  bottom: 50px;
+  display: block;
+  left: calc(50% - 60px);
+  right: auto;
+  position: fixed;
+  padding: 1rem 1.5rem;
+  font-weight: bolder;
+  border-radius: 15px;
 }

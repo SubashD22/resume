@@ -6,23 +6,23 @@ const Contact = () => {
             <div className="contact">
 
                 <h2>Contact</h2>
-                <p><i className="fa-solid fa-phone"></i><span className="personal-details"> +91-855-570-4521</span></p>
+                <p><img src="/mobile.png" alt=" mobile" className='icon' /><span className="personal-details"> +91-855-570-4521</span></p>
 
-                <p><i className="fa-solid fa-envelope"></i><span className="personal-details"> devonlane@gmail.com</span></p>
+                <p><img src="/mail.png" alt=" mail" className='icon' /><span className="personal-details"> devonlane@gmail.com</span></p>
 
-                <p><i className="fa-solid fa-globe"></i><span className="personal-details"> www.devonlane.com</span></p>
+                <p><img src="/website.png" alt=" website" className='icon' /><span className="personal-details"> www.devonlane.com</span></p>
 
-                <p><i className="fa-solid fa-location-dot"></i><span className="personal-details"> 52 Reservoir Singapore</span></p>
+                <p><img src="/location.png" alt=" location" className='icon' /><span className="personal-details"> 52 Reservoir Singapore</span></p>
 
-                <p><i className="fa-brands fa-linkedin"></i><span className="personal-details"> www.example1.com</span></p>
+                <p><img src="/linkedin.png" alt=" linkedin" className='icon' /><span className="personal-details"> www.example1.com</span></p>
 
-                <p><i className="fa-solid fa-file"></i><span className="personal-details"> www.example2.com</span></p>
+                <p><img src="/website.png" alt=" website" className='icon' /><span className="personal-details"> www.example2.com</span></p>
 
-                <p><i className="fa-solid fa-flag"></i><span className="personal-details"> Indian</span></p>
+                <p><img src="/nationality.png" alt=" nationality" className='icon' /><span className="personal-details"> Indian</span></p>
 
-                <p><i className="fa-regular fa-calendar-days"></i><span className="personal-details"> Jan 15, 1996</span></p>
+                <p><img src="/birthdate.png" alt="birthdate" className='icon' /><span className="personal-details"> Jan 15, 1996</span></p>
             </div>
-        </div>
+        </div >
     )
 }
 

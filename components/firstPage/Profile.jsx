@@ -8,7 +8,7 @@ const Profile = () => {
         <>
             <div className="name">
                 <h1 id="name-devon">{name}</h1>
-                <p>{role}</p>
+                <h2>{role}</h2>
             </div>
 
             <div className="this Profile">

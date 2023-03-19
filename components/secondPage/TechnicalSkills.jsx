@@ -4,19 +4,19 @@ import Skills from '../firstPage/Skills'
 const TechnicalSkills = () => {
     return (
         <>
-            <h2 className="techskils">Technical Skills</h2>
+            <h2 >Technical Skills</h2>
 
-            <p className="tech">Technical Skills 1</p>
+            <h4>Technical Skills 1</h4>
             <div className="marks-dots">
                 <Skills points={7} />
             </div>
 
-            <p className="tech">Technical Skills 2</p>
+            <h4 >Technical Skills 2</h4>
             <div className="marks-dots">
                 <Skills points={9} />
             </div>
 
-            <p className="tech">Technical Skills 3</p>
+            <h4 >Technical Skills 3</h4>
             <div className="marks-dots">
                 <Skills points={8} />
             </div>

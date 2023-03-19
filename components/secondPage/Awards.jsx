@@ -8,10 +8,10 @@ const Awards = () => {
             <h2 id="awards">Awards</h2>
             {awards.map((a, i) => {
                 return <div key={i}>
-                    <h4 className="award">{a.title}</h4>
+                    <h4>{a.title}</h4>
                     <p>{a.time}</p>
 
-                    <p className="company">{a.company}</p>
+                    <p >{a.company}</p>
                     <p>URL : {a.url}</p>
 
                     <ul>

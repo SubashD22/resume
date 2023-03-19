@@ -1,10 +1,26 @@
 import Head from 'next/head'
-import Page1 from '@/components/firstPage/Page1'
-import Page2 from '@/components/secondPage/Page2'
-import Page3 from '@/components/thirdPage/Page3'
+import Contact from '@/components/firstPage/Contact'
+import SkillSection from '@/components/firstPage/SkillSection'
+import Profile from '@/components/firstPage/Profile'
+import Education from '@/components/firstPage/Education'
+import TechnicalSkills from '@/components/secondPage/TechnicalSkills'
+import Awards from '@/components/secondPage/Awards'
+import Certifications from '@/components/secondPage/Certifications'
+import WorkExperience from '@/components/secondPage/WorkExperience'
+import Languages from '@/components/thirdPage/Languages'
+import Internships from '@/components/thirdPage/Internships'
+import PersonalInterest from '@/components/thirdPage/PersonalInterest'
+import Projects from '@/components/thirdPage/Projects'
+import jsPDF from 'jspdf'
+import { useRef, useState } from 'react'
+import { PDFExport } from '@progress/kendo-react-pdf'
 
 
 export default function Home() {
+  const pdfref = useRef(null)
+  const downloadPdf=()=>{
+   pdfref.current.save();
+  }
   return (
     <>
       <Head>
@@ -19,9 +35,65 @@ export default function Home() {
         <link rel="icon" href="/girl_image.png" />
       </Head>
       <main>
-        <Page1/>
-        <Page2/>
-        <Page3/>
+        <PDFExport ref={pdfref} fileName="resume" paperSize="A4">
+        <div className="container">
+            <div className="grid">
+                <div className="left">
+                    <img src="/shape1.png" id="top-image" />
+                    <div >
+                        <img src="/girl_image.png" className="girl-image" />
+                    </div>
+                    <Contact/>
+                    <SkillSection />
+                    <img src="/shap2.png" id="image-shap2" />
+                </div>
+                    <div className="right">
+                        <Profile />
+                        <Education />
+                    </div>
+            </div>
+            <img src="/shape3.png" id="bottom-image" />
+        </div>
+        <div className="container pg2">
+            <div className="grid">
+                <div className="left">
+                <img src="/shape1.png" id="top-image2" />
+                    <div className="technical-skills-section">
+                        <div className="technical">
+                            <TechnicalSkills />
+                            <Awards />
+                            <Certifications />
+                            <img src="/shap2.png" id="image-shap22" />
+                        </div>
+                    </div>
+                </div>
+                <div className="right">
+                    <WorkExperience />
+                </div>
+            </div>
+            <img src="/shape3.png" id="bottom-image2" />
+        </div>
+        <div className="container pg3">
+            <div className="grid">
+                <div className="left">
+                <img src="/shape1.png" id="top-image2" /> 
+                  <div className="technical-skills-section">
+                        <div className="technical">
+                            <Languages />
+                            <Internships />
+                            <PersonalInterest />
+                            <img src="/shap2.png" id="image-shap22" />
+                        </div>
+                    </div>
+                </div>
+                <div className="right">
+                    <Projects/>
+                </div>
+            </div>
+            <img src="/shape3.png" id="bottom-image2" />
+        </div>
+        </PDFExport>
+        <button onClick={downloadPdf}>Download</button>
       </main>
     </>
   )
