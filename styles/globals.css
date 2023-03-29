@@ -1,9 +1,85 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.container{
+.pdf {
+  position: relative;
+}
+.container {
+  border: 6px solid black;
+  width: 6.22in;
+  min-height: 8.78in;
+  max-height: auto;
+  overflow: hidden;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.right {
+  padding: 5rem 0.5rem 0 0.5rem;
+}
+.left {
+  padding: 0 0.5rem;
+}
+.girl-image {
+  width: 125px;
+  height: 125px;
+  margin: -17.5px 0 0 47px;
+}
+.marks-dots {
+  display: flex;
+  gap: 0 2.5px;
+}
+#name-devon {
+  font-size: 35px;
+  width: 100px;
+}
+#top-image {
+  width: 250px;
+  margin-top: -25px;
+  margin-left: -3rem;
+}
+.contact-section {
+  margin-bottom: 1rem;
+}
+.mb {
+  margin-bottom: 2rem;
+}
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+button {
+  bottom: 50px;
+  display: block;
+  left: calc(50% - 60px);
+  right: auto;
+  position: fixed;
+  padding: 1rem 1.5rem;
+  font-weight: bolder;
+  border-radius: 15px;
+}
+h2 {
+  font-size: larger;
+}
+h4 {
+  font-size: large;
+}
+p,
+li {
+  color: #515151;
+  font-size: small;
+}
+hr {
+  border: 2px solid blue;
+  height: 2.5px;
+  margin-top: 12.5px;
+  background-color: blue;
+}
+
+/* .container{
   border:6px solid black;
   width: 6.22in;
   height: 8.78in;
@@ -39,7 +115,7 @@ p, li{
   
 }
 .name{
-  margin:50px 0 0 0;
+  
   font-size: 18px;
   font-weight: bold;
 }
@@ -63,7 +139,6 @@ p, li{
   display: flex;
   gap:0 2.5px}
 h2{
-  margin-bottom:10px;
   font-size: large;
 }
 h4{
@@ -157,4 +232,4 @@ button{
   padding: 1rem 1.5rem;
   font-weight: bolder;
   border-radius: 15px;
-}
+} */
